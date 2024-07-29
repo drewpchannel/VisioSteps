@@ -1,0 +1,38 @@
+Here is a more organized set of instructions based on the provided steps:
+
+### Step 1: Enabling IE Mode in Edge
+1. Open **Edge**.
+2. Go to **Settings**.
+3. Search for "Internet Explorer".
+4. Find the option **Allow sites to be reloaded in Internet Explorer mode (IE Mode)**.
+   - If this option is greyed out, click the blue link underneath it.
+   - Follow the instructions to enable the required option and return.
+   - The IE mode option should now be active.
+5. Enable the **IE Mode** option.
+6. Restart **Edge**.
+   - A new icon with an old IE logo will appear at the top right, allowing you to switch to IE mode from Edge.
+
+### Step 2: Register Visio Files With Edge
+1. Open **Windows File Explorer**.
+2. Find a Visio file, right-click on it, and choose **Open With** > **Choose another app**.
+   - If **Edge** is an option, select it, and choose **Always use this app**.
+   - If **Edge** is not listed, scroll to the bottom of the dialog and choose **More Apps**.
+   - If still not shown, scroll to the bottom again and choose **Look for another app on this PC**.
+3. Navigate to:
+   ```
+   C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+   ```
+4. Select `msedge.exe` and set it as the default app for opening Visio files.
+
+### Step 3: Tell Edge to Use IE Mode
+1. Open **Windows File Explorer**.
+2. Find the Visio file and open it.
+   - **Edge** will open and may prompt you to download the file. Ignore any warnings about the file type being dangerous.
+3. Click the new **IE Mode** button on the top right of the Edge browser.
+4. A warning at the bottom of the page will appear to **Allow blocked content**; accept this.
+5. The Visio file should now be displayed.
+6. A popup will appear with the option **Open this page in Internet Explorer Mode next time**. 
+   - If you use this file often, tick that box.
+   - The Visio file will then open directly in IE Mode next time.
+   - Note that this setting works on a file-by-file basis, so you will need to repeat Step 3 for each new Visio file.
+   - This setting only lasts for 30 days, so you will need to repeat the process monthly.
